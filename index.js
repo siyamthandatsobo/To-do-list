@@ -72,7 +72,11 @@ for(let i =0;i<nums.length;i++){
     numsdoubled.push(num *2);
 }
 console.log(numsdoubled)*/
+
 const todoList=['siya', 'owam'];
+
+/*const todoList=['siya', 'owam'];
+
 renderTodolist();
 function renderTodolist(){
 
@@ -85,10 +89,16 @@ function renderTodolist(){
         todoListHTML +=html;
     }
     console.log(todoListHTML);
+
     document.querySelector('.js-todo-list').innerHTML=todoListHTML;
 
     
 }*/
+=======
+    document.querySelector('.js-todo-list').innerHTML=todoListHTML;*/
+
+    
+//}
 function addTodo(){
     const inputElement = document.querySelector('.js-name-input');
     const name =inputElement.value;
