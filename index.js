@@ -85,10 +85,10 @@ function renderTodolist(){
         todoListHTML +=html;
     }
     console.log(todoListHTML);
-    document.querySelector('.js-todo-list').innerHTML=todoListHTML;
-    let strikethrough=document.querySelector('.strike');
+    document.querySelector('.js-todo-list').innerHTML=todoListHTML;*/
+
     
-}
+//}
 function addTodo(){
     const inputElement = document.querySelector('.js-name-input');
     const name =inputElement.value;
@@ -96,4 +96,4 @@ function addTodo(){
     console.log(todoList);//displays in console
     inputElement.value='';
     renderTodolist()
-}*/
+}
